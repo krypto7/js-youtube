@@ -45,3 +45,15 @@ function HelloWorld() {
 // console.log(typeof heros);  ===> Object
 // console.log(typeof myObj);  ===> Object
 // console.log(typeof HelloWorld); ===> Function
+
+let name = "Nishant";
+let fullName = name;
+fullName = "Nishant Karear";
+console.log(fullName);
+console.log(name);
+
+let arr = [1, 2, 3, 4, 5, 6];
+let arr1 = arr;
+arr1 = [1, 2, 4, 5];
+console.log(arr1);
+console.log(arr);
